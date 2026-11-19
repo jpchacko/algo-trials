@@ -2,7 +2,7 @@ package intervals.sum;
 
 import java.util.*;
 
-class IntervalSum {
+public class IntervalSum {
     public long[] getDistances(int[] arr) {
         Map<Integer, List<Integer>> dists = new HashMap<>();
 
